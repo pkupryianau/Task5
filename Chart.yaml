@@ -1,7 +1,7 @@
 ---
 kind: Application
 metadata:
-  name: rsschool-task5
+  name: Task5
 spec:
   destination:
     namespace: argocd
@@ -11,7 +11,7 @@ spec:
     automated:
       prune: true
   source:
-    path: rsschool_task5
+    path: Task5
     repoURL: https://pkupryianau.github.io/rsschool_task5/
     targetRevision: test
     helm:

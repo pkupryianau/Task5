@@ -9,7 +9,7 @@ entries:
     name: mysql
     type: application
     urls:
-    - https://pkupryianau.github.io/rsschool_task5/mysql-0.1.0.tgz
+    - https://pkupryianau.github.io/Task5/mysql-0.1.0.tgz
     version: 0.1.0
   wordpress:
   - apiVersion: v2
@@ -20,6 +20,6 @@ entries:
     name: wordpress
     type: application
     urls:
-    - https://pkupryianau.github.io/rsschool_task5/wordpress-0.1.0.tgz
+    - https://pkupryianau.github.io/Task5/wordpress-0.1.0.tgz
     version: 0.1.0
 generated: "2024-11-06T16:29:42.56312168Z"
