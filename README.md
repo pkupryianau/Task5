@@ -33,5 +33,5 @@ In this Task5 was created kubernetes infrastructure based on k3s cluster and dep
         - screen [config](images/create_wp_mysql.png)
 5. **Deploy an application  WordPress on  ArgoCD based Helm carts**
    - Deploy a simple task
-       - screen [deploy](images/create_wp_mysql.png.png)
+       - screen [deploy](images/create_wp_mysql.png)
        - screen [wp_site](images/wp_site.png)
