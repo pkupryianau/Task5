@@ -1,0 +1,19 @@
+---
+kind: Application
+metadata:
+  name: rsschool-task5
+spec:
+  destination:
+    namespace: argocd
+    server: https://kubernetes.default.svc
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+  source:
+    path: rsschool_task5
+    repoURL: https://pkupryianau.github.io/rsschool_task5/
+    targetRevision: test
+    helm:
+      valueFiles:
+      - values.yaml```
