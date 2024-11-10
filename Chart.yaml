@@ -12,7 +12,7 @@ spec:
       prune: true
   source:
     path: Task5
-    repoURL: https://pkupryianau.github.io/rsschool_task5/
+    repoURL: https://pkupryianau.github.io/Task5/
     targetRevision: test
     helm:
       valueFiles:
